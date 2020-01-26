@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/cn/docs/example/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/example/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/example/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/example/table-of-contents/with-toc/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/example/table-of-contents/with-toc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/example/table-of-contents/with-toc/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/example/table-of-contents/without-toc/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/example/table-of-contents/without-toc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/example/table-of-contents/without-toc/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/posts/creating-a-new-theme/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/posts/migrate-from-jekyll/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/docs/example/table-of-contents/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/example/table-of-contents/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/example/table-of-contents/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/example/2nd/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/example/2nd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/example/2nd/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/posts/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/posts/goisforlovers/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/categories/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/categories/Development/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/tags/development/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/posts/hugoisforlovers/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/tags/go/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/tags/golang/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/categories/golang/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/tags/hugo/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/tags/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/tags/templates/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/tags/themes/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/docs/example/2nd/3rd/4th/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/example/2nd/3rd/4th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/example/2nd/3rd/4th/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/example/2nd/3rd/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/example/2nd/3rd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/example/2nd/3rd/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/example/hidden/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/example/hidden/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/example/hidden/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/shortcodes/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/shortcodes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/shortcodes/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/shortcodes/buttons/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/shortcodes/buttons/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/shortcodes/buttons/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/shortcodes/columns/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/shortcodes/columns/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/shortcodes/columns/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/shortcodes/expand/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/shortcodes/expand/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/shortcodes/expand/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/shortcodes/hints/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/shortcodes/hints/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/shortcodes/hints/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/shortcodes/katex/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/shortcodes/katex/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/shortcodes/katex/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/shortcodes/mermaid/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/shortcodes/mermaid/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/shortcodes/mermaid/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/shortcodes/tabs/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/shortcodes/tabs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/shortcodes/tabs/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/docs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>/cn/</loc>
+    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="/cn/"
+                />
+  </url>
+  
+</urlset>

@@ -1,4 +1,6 @@
-# yanlang-website
+# yan-tutorial
+
+Documentation website for Yan
 
 ## Requirements
 
