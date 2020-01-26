@@ -2,6 +2,7 @@
 
 title: Yan Documentation
 theme: hugo-book
+baseURL: https://yan-lang.github.io/yan-tutorial/
 
 # Book configuration
 disablePathToLower: true
