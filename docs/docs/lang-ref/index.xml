@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Language Reference on Yan Documentation</title>
+    <link>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/</link>
+    <description>Recent content in Language Reference on Yan Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://yan-lang.github.io/yan-tutorial/docs/lang-ref/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lexical Grammar</title>
+      <link>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/lexical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/lexical/</guid>
+      <description>Lexical Grammar </description>
+    </item>
+    
+    <item>
+      <title>Syntactic Grammar</title>
+      <link>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/syntax/</guid>
+      <description>Syntactic Grammar </description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/summary/</guid>
+      <description>Summary </description>
+    </item>
+    
+  </channel>
+</rss>

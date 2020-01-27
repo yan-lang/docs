@@ -5,101 +5,85 @@
   <url>
     <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/</loc>
     <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/example/"
-                />
   </url>
   
   <url>
     <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/table-of-contents/with-toc/</loc>
     <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/example/table-of-contents/with-toc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/example/table-of-contents/with-toc/"
-                />
   </url>
   
   <url>
     <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/table-of-contents/without-toc/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/example/table-of-contents/without-toc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/example/table-of-contents/without-toc/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/posts/creating-a-new-theme/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/posts/migrate-from-jekyll/</loc>
     <lastmod>2020-01-26T22:14:24+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/table-of-contents/</loc>
     <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/example/table-of-contents/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/example/table-of-contents/"
-                />
   </url>
   
   <url>
     <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/2nd/</loc>
     <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/example/2nd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/example/2nd/"
-                />
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/posts/</loc>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/2nd/3rd/4th/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/2nd/3rd/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/hidden/</loc>
     <lastmod>2020-01-26T22:14:24+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/posts/goisforlovers/</loc>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/</loc>
     <lastmod>2020-01-26T22:14:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/buttons/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/columns/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/expand/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/hints/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/katex/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/mermaid/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/tabs/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yan-lang.github.io/yan-tutorial/cn/categories/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -109,231 +93,6 @@
                 rel="alternate"
                 hreflang="cn"
                 href="https://yan-lang.github.io/yan-tutorial/cn/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/categories/Development/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/tags/development/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/posts/hugoisforlovers/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/tags/go/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/tags/golang/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/categories/golang/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/tags/hugo/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/tags/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/tags/templates/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/tags/themes/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/2nd/3rd/4th/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/example/2nd/3rd/4th/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/example/2nd/3rd/4th/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/2nd/3rd/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/example/2nd/3rd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/example/2nd/3rd/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/example/hidden/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/example/hidden/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/example/hidden/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/buttons/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/shortcodes/buttons/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/buttons/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/columns/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/shortcodes/columns/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/columns/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/expand/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/shortcodes/expand/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/expand/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/hints/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/shortcodes/hints/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/hints/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/katex/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/shortcodes/katex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/katex/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/mermaid/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/shortcodes/mermaid/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/mermaid/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/tabs/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/docs/shortcodes/tabs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/shortcodes/tabs/"
                 />
   </url>
   
@@ -348,6 +107,20 @@
                 rel="alternate"
                 hreflang="cn"
                 href="https://yan-lang.github.io/yan-tutorial/cn/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/cn/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yan-lang.github.io/yan-tutorial/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://yan-lang.github.io/yan-tutorial/cn/tags/"
                 />
   </url>
   
