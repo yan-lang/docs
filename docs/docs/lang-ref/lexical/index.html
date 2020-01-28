@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Lexical Grammar"><meta property="og:title" content="Lexical Grammar" />
-<meta property="og:description" content="Lexical Grammar " />
+<meta property="og:description" content="Lexical Grammar IDENTIFIER -&gt; ALPHA (ALPHA | DIGIT)* ALPHA -&gt; a-z | A-Z | _ DIGIT -&gt; 0-9 STRING -&gt; &#34; any char except &#34; &#34; NUMBER -&gt; DIGIT&#43; [.DIGIT&#43;] LINE_COMMENT -&gt; &#34;//&#34; any character BLOCK_COMMENT -&gt;. &#34;/*&#34;any character &#34;*/&#34; " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yan-lang.github.io/yan-tutorial/docs/lang-ref/lexical/" />
 <meta property="article:modified_time" content="2020-01-27T22:48:41+08:00" />
@@ -13,10 +13,10 @@
 <link rel="icon" href="/yan-tutorial/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/yan-tutorial/book.min.0bf62e14315a6976becbb034e3e9dcb38868fd5d0bec5aabe9645116e6d7a716.css" integrity="sha256-C/YuFDFaaXa&#43;y7A04&#43;ncs4ho/V0L7Fqr6WRRFubXpxY=">
+<link rel="stylesheet" href="/yan-tutorial/book.min.49fd09c0958b0c19eda710cf8a08eb351772598ed63f85e7a1d1844f6559f517.css" integrity="sha256-Sf0JwJWLDBntpxDPigjrNRdyWY7WP4XnodGET2VZ9Rc=">
 
 
-<script defer src="/yan-tutorial/en.search.min.a91295db2e027e887d2282a2bce2dfb30c5c923f93d57620fdab35c660b3e3f9.js" integrity="sha256-qRKV2y4Cfoh9IoKivOLfswxckj&#43;T1XYg/as1xmCz4/k="></script>
+<script defer src="/yan-tutorial/en.search.min.0ff1df9f9906b8755f33e6253ebb0694c08ee0d9c9d07f2d2124c9e1b3b88685.js" integrity="sha256-D/Hfn5kGuHVfM&#43;YlPrsGlMCO4NnJ0H8tISTJ4bO4hoU="></script>
 
 <!--
 Made with Book Theme
@@ -66,13 +66,17 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 </li>
 <li>
-<p><strong>Language Reference</strong></p>
+<p><a href="/yan-tutorial/docs/lang-ref/"><strong>Language Reference</strong></a></p>
 <ul>
 <li><a href="/yan-tutorial/docs/lang-ref/lexical/"class=active>Lexical Grammar</a></li>
 <li><a href="/yan-tutorial/docs/lang-ref/syntax/">Syntatic Grammar</a></li>
 <li><a href="/yan-tutorial/docs/lang-ref/summary/">Summary</a></li>
 </ul>
 </li>
+</ul>
+ <br>
+<ul>
+<li><a href="http://yan-lang.github.io/">← Return to Yan.io</a></li>
 </ul>
 
 
@@ -129,7 +133,14 @@ https://github.com/alex-shpak/hugo-book
 
       
 <article class="markdown"><h1 id="lexical-grammar">Lexical Grammar</h1>
-</article>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">IDENTIFIER -&gt; ALPHA (ALPHA | DIGIT)*
+ALPHA -&gt; a-z | A-Z | _
+DIGIT -&gt; 0-9
+STRING -&gt; &#34; any char except &#34; &#34;
+NUMBER -&gt; DIGIT+ [.DIGIT+]
+LINE_COMMENT -&gt; &#34;//&#34; any character
+BLOCK_COMMENT -&gt;. &#34;/*&#34;any character &#34;*/&#34;
+</code></pre></div></article>
  
 
       <footer class="book-footer">

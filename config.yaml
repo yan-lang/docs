@@ -17,6 +17,10 @@ markup:
       unsafe: true
   tableOfContents:
     startLevel: 1
+  highlight:
+    guessSyntax: true
+    style: trac
+    tabWidth: 4
 
 # Multi-lingual mode config
 # There are different options to translate files

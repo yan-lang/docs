@@ -13,8 +13,11 @@ bookMenuLevels: 1
     - [Function]({{< relref "/docs/lang-guide/func" >}})
 
 
-- **Language Reference**
+- [**Language Reference**]({{< relref "/docs/lang-ref/_index.md" >}})
     - [Lexical Grammar]({{< relref "/docs/lang-ref/lexical" >}})
     - [Syntatic Grammar]({{< relref "/docs/lang-ref/syntax" >}})
     - [Summary]({{< relref "/docs/lang-ref/summary" >}})
  
+ <br>
+
+ - [← Return to Yan.io](http://yan-lang.github.io/)

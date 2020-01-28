@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/lexical/</guid>
-      <description>Lexical Grammar </description>
+      <description>Lexical Grammar IDENTIFIER -&amp;gt; ALPHA (ALPHA | DIGIT)* ALPHA -&amp;gt; a-z | A-Z | _ DIGIT -&amp;gt; 0-9 STRING -&amp;gt; &amp;#34; any char except &amp;#34; &amp;#34; NUMBER -&amp;gt; DIGIT+ [.DIGIT+] LINE_COMMENT -&amp;gt; &amp;#34;//&amp;#34; any character BLOCK_COMMENT -&amp;gt;. &amp;#34;/*&amp;#34;any character &amp;#34;*/&amp;#34; </description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@ Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/syntax/</guid>
-      <description>Syntactic Grammar </description>
+      <description>Syntactic Grammar program -&amp;gt; declartion* EOF Decalarations declaration -&amp;gt; funcDecl | varDecl | statement funcDecl -&amp;gt; &amp;#34;func&amp;#34; IDENTIFIER &amp;#34;(&amp;#34; parameters &amp;#34;)&amp;#34; [&amp;#34;-&amp;gt;&amp;#34; type] block varDecl -&amp;gt; &amp;#34;var&amp;#34; IDENTIFIER &amp;#34;:&amp;#34; type [&amp;#34;=&amp;#34; expression] &amp;#34;;&amp;#34; type -&amp;gt; &amp;#34;float&amp;#34; | &amp;#34;int&amp;#34; | &amp;#34;string&amp;#34; | &amp;#34;bool&amp;#34; | &amp;#34;char&amp;#34; parameters -&amp;gt; IDENTIFIER: type Statements statement -&amp;gt; block | ifStmt | whileStmt | forStmt | exprStmt | returnStmt | continueStmt | breakStmt | printStmt ifStmt -&amp;gt; &amp;#34;if&amp;#34; &amp;#34;(&amp;#34; expression &amp;#34;)&amp;#34; &amp;#34;{&amp;#34; block &amp;#34;}&amp;#34; [&amp;#34;else&amp;#34; block ] whileStmt -&amp;gt; &amp;#34;while&amp;#34; &amp;#34;(&amp;#34; expression &amp;#34;)&amp;#34; block forStmt -&amp;gt; &amp;#34;for&amp;#34; &amp;#34;(&amp;#34;varDecl|exprStmt&amp;#34;;&amp;#34; expression&amp;#34;;&amp;#34; expression&amp;#34;)&amp;#34; block exprStmt -&amp;gt; expression &amp;#34;;&amp;#34; returnStmt -&amp;gt; &amp;#34;return&amp;#34; [expression] &amp;#34;;&amp;#34; continueStmt -&amp;gt; &amp;#34;continue&amp;#34; &amp;#34;;&amp;#34; breakStmt -&amp;gt; &amp;#34;break&amp;#34; &amp;#34;;&amp;#34; block -&amp;gt; &amp;#34;{&amp;#34; statement* &amp;#34;}&amp;#34; printStmt -&amp;gt; &amp;#34;print&amp;#34; &amp;#34;(&amp;#34; expression &amp;#34;)&amp;#34; Expressions expression -&amp;gt; assignment assignment -&amp;gt; IDENTIFIER &amp;#34;=&amp;#34; assignment | logic_or logic_or -&amp;gt; logic_and (&amp;#34;||&amp;#34; logic_and)* logic_and -&amp;gt; equality (&amp;#34;&amp;amp;&amp;amp;&amp;#34; equality)* equality -&amp;gt; comparison ((&amp;#34;!</description>
     </item>
     
     <item>
@@ -89,8 +89,9 @@ Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yan-lang.github.io/yan-tutorial/docs/lang-guide/func/</guid>
-      <description>Function int { return } ``` -- 测试一下代码高亮
-func power(base: int, e: int) -&amp;gt; int { var i = 0; var result = 1; while(i &amp;lt; e) { result *= base; i += 1; } return result; }  </description>
+      <description>Function 测试一下
+var a:int = 10 func add(a:int, b:int) -&amp;gt; int { return } 测试一下代码高亮
+func power(base: int, e: int) -&amp;gt; int { var i = 0; var result = 1; while(i &amp;lt; e) { result *= base; i += 1; } return result; }  MacOS  MacOS Content 测试一下  Linux  Linux Content  Windows  Windows Content   </description>
     </item>
     
   </channel>

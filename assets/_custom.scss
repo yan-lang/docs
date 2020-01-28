@@ -10,22 +10,23 @@
     vertical-align: top;
 }
 
-// .book-languages img {
-//     height: 1em;
-//     margin-right: .5rem;
-// }
-
 .book-menu a.active {
     font-weight: bold;
 }
 
-.highlight {
-    border-radius: .15rem;
-    font-size: .6em;
-    line-height: 2em;
+.markdown {
+    font-size: 14.5px;
 }
-.highlight pre {
+
+.highlight .yan{
+    border-radius: .15rem;
+    font-size: .8em;
+    line-height: 2em;
     font-family: "roboto mono",monospace;
+}
+
+.highlight pre {
+    background-color: #f8f9fa !important;
 }
 
 .highlight .hll { background-color: #ffffcc }

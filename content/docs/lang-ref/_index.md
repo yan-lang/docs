@@ -4,21 +4,17 @@ bookCollapseSection: false
 title: "Language Reference"
 ---
 
-# 2nd Level of Menu
+# About Language Reference
 
-## Cognita laeva illo fracta
+This part of the book describes the formal grammar of the Yan programming language.
 
-Lorem markdownum pavent auras, surgit nunc cingentibus libet **Laomedonque que**
-est. Pastor [An](http://est.org/ire.aspx) arbor filia foedat, ne [fugit
-aliter](http://www.indiciumturbam.org/moramquid.php), per. Helicona illas et
-callida neptem est *Oresitrophos* caput, dentibus est venit. Tenet reddite
-[famuli](http://www.antro-et.net/) praesentem fortibus, quaeque vis foret si
-frondes *gelidos* gravidae circumtulit [inpulit armenta
-nativum](http://incurvasustulit.io/illi-virtute.html).
+## How to Read the Grammar
 
-1. Te at cruciabere vides rubentis manebo
-2. Maturuit in praetemptat ruborem ignara postquam habitasse
-3. Subitarum supplevit quoque fontesque venabula spretis modo
-4. Montis tot est mali quasque gravis
-5. Quinquennem domus arsit ipse
-6. Pellem turis pugnabant locavit
+The notation used to describe the formal grammar of the Yan programming language follows a few conventions:
+
+- An arrow (→) is used to mark grammar productions and can be read as “can consist of.”
+- Syntactic categories are indicated by italic text and appear on both sides of a grammar production rule.
+- Literal words and punctuation are indicated by boldface constant width text and appear only on the right-hand side of a grammar production rule.
+- Alternative grammar productions are separated by vertical bars (|). When alternative productions are too long to read easily, they are broken into multiple grammar production rules on new lines.
+- In a few cases, regular font text is used to describe the right-hand side of a grammar production rule.
+- Optional syntactic categories and literals are marked by a trailing subscript, opt.

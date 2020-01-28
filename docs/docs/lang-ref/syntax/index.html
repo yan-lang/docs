@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Syntactic Grammar"><meta property="og:title" content="Syntactic Grammar" />
-<meta property="og:description" content="Syntactic Grammar " />
+<meta property="og:description" content="Syntactic Grammar program -&gt; declartion* EOF Decalarations declaration -&gt; funcDecl | varDecl | statement funcDecl -&gt; &#34;func&#34; IDENTIFIER &#34;(&#34; parameters &#34;)&#34; [&#34;-&gt;&#34; type] block varDecl -&gt; &#34;var&#34; IDENTIFIER &#34;:&#34; type [&#34;=&#34; expression] &#34;;&#34; type -&gt; &#34;float&#34; | &#34;int&#34; | &#34;string&#34; | &#34;bool&#34; | &#34;char&#34; parameters -&gt; IDENTIFIER: type Statements statement -&gt; block | ifStmt | whileStmt | forStmt | exprStmt | returnStmt | continueStmt | breakStmt | printStmt ifStmt -&gt; &#34;if&#34; &#34;(&#34; expression &#34;)&#34; &#34;{&#34; block &#34;}&#34; [&#34;else&#34; block ] whileStmt -&gt; &#34;while&#34; &#34;(&#34; expression &#34;)&#34; block forStmt -&gt; &#34;for&#34; &#34;(&#34;varDecl|exprStmt&#34;;&#34; expression&#34;;&#34; expression&#34;)&#34; block exprStmt -&gt; expression &#34;;&#34; returnStmt -&gt; &#34;return&#34; [expression] &#34;;&#34; continueStmt -&gt; &#34;continue&#34; &#34;;&#34; breakStmt -&gt; &#34;break&#34; &#34;;&#34; block -&gt; &#34;{&#34; statement* &#34;}&#34; printStmt -&gt; &#34;print&#34; &#34;(&#34; expression &#34;)&#34; Expressions expression -&gt; assignment assignment -&gt; IDENTIFIER &#34;=&#34; assignment | logic_or logic_or -&gt; logic_and (&#34;||&#34; logic_and)* logic_and -&gt; equality (&#34;&amp;&amp;&#34; equality)* equality -&gt; comparison ((&#34;!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yan-lang.github.io/yan-tutorial/docs/lang-ref/syntax/" />
 <meta property="article:modified_time" content="2020-01-27T22:48:41+08:00" />
@@ -13,10 +13,10 @@
 <link rel="icon" href="/yan-tutorial/favicon.png" type="image/x-icon">
 
 
-<link rel="stylesheet" href="/yan-tutorial/book.min.0bf62e14315a6976becbb034e3e9dcb38868fd5d0bec5aabe9645116e6d7a716.css" integrity="sha256-C/YuFDFaaXa&#43;y7A04&#43;ncs4ho/V0L7Fqr6WRRFubXpxY=">
+<link rel="stylesheet" href="/yan-tutorial/book.min.49fd09c0958b0c19eda710cf8a08eb351772598ed63f85e7a1d1844f6559f517.css" integrity="sha256-Sf0JwJWLDBntpxDPigjrNRdyWY7WP4XnodGET2VZ9Rc=">
 
 
-<script defer src="/yan-tutorial/en.search.min.a91295db2e027e887d2282a2bce2dfb30c5c923f93d57620fdab35c660b3e3f9.js" integrity="sha256-qRKV2y4Cfoh9IoKivOLfswxckj&#43;T1XYg/as1xmCz4/k="></script>
+<script defer src="/yan-tutorial/en.search.min.0ff1df9f9906b8755f33e6253ebb0694c08ee0d9c9d07f2d2124c9e1b3b88685.js" integrity="sha256-D/Hfn5kGuHVfM&#43;YlPrsGlMCO4NnJ0H8tISTJ4bO4hoU="></script>
 
 <!--
 Made with Book Theme
@@ -66,13 +66,17 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 </li>
 <li>
-<p><strong>Language Reference</strong></p>
+<p><a href="/yan-tutorial/docs/lang-ref/"><strong>Language Reference</strong></a></p>
 <ul>
 <li><a href="/yan-tutorial/docs/lang-ref/lexical/">Lexical Grammar</a></li>
 <li><a href="/yan-tutorial/docs/lang-ref/syntax/"class=active>Syntatic Grammar</a></li>
 <li><a href="/yan-tutorial/docs/lang-ref/summary/">Summary</a></li>
 </ul>
 </li>
+</ul>
+ <br>
+<ul>
+<li><a href="http://yan-lang.github.io/">← Return to Yan.io</a></li>
 </ul>
 
 
@@ -117,7 +121,13 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#syntactic-grammar">Syntactic Grammar</a></li>
+    <li><a href="#syntactic-grammar">Syntactic Grammar</a>
+      <ul>
+        <li><a href="#decalarations">Decalarations</a></li>
+        <li><a href="#statements">Statements</a></li>
+        <li><a href="#expressions">Expressions</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -129,7 +139,51 @@ https://github.com/alex-shpak/hugo-book
 
       
 <article class="markdown"><h1 id="syntactic-grammar">Syntactic Grammar</h1>
-</article>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">program -&gt; declartion* EOF
+</code></pre></div><h2 id="decalarations">Decalarations</h2>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">declaration -&gt; funcDecl 
+						 | varDecl
+						 | statement
+funcDecl -&gt; &#34;func&#34; IDENTIFIER &#34;(&#34; parameters &#34;)&#34; [&#34;-&gt;&#34; type] block
+varDecl -&gt; &#34;var&#34; IDENTIFIER &#34;:&#34; type [&#34;=&#34; expression] &#34;;&#34;
+type -&gt; &#34;float&#34; | &#34;int&#34; | &#34;string&#34; | &#34;bool&#34; | &#34;char&#34;
+parameters -&gt; IDENTIFIER: type
+</code></pre></div><h2 id="statements">Statements</h2>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">statement -&gt; block
+					 | ifStmt
+					 | whileStmt
+					 | forStmt
+					 | exprStmt
+					 | returnStmt
+					 | continueStmt
+					 | breakStmt
+					 | printStmt
+ifStmt -&gt; &#34;if&#34; &#34;(&#34; expression &#34;)&#34; &#34;{&#34; block &#34;}&#34; [&#34;else&#34; block ]
+whileStmt -&gt; &#34;while&#34; &#34;(&#34; expression &#34;)&#34;  block
+forStmt -&gt; &#34;for&#34; &#34;(&#34;varDecl|exprStmt&#34;;&#34; expression&#34;;&#34; expression&#34;)&#34; block
+exprStmt -&gt; expression &#34;;&#34;
+returnStmt -&gt; &#34;return&#34; [expression] &#34;;&#34;
+continueStmt -&gt; &#34;continue&#34; &#34;;&#34;
+breakStmt -&gt; &#34;break&#34; &#34;;&#34;
+block -&gt; &#34;{&#34; statement* &#34;}&#34;
+printStmt -&gt; &#34;print&#34; &#34;(&#34; expression &#34;)&#34; 
+</code></pre></div><h2 id="expressions">Expressions</h2>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">expression -&gt; assignment
+assignment -&gt; IDENTIFIER &#34;=&#34; assignment 
+						| logic_or
+logic_or -&gt; logic_and (&#34;||&#34; logic_and)*
+logic_and -&gt; equality (&#34;&amp;&amp;&#34; equality)*
+equality -&gt; comparison ((&#34;!=&#34; | &#34;==&#34;) comparison)*
+comparison -&gt; addition ((&#34;&gt;=&#34; | &#34;&gt;&#34; | &#34;&lt;&#34; | &#34;&lt;=&#34;) addition)*
+addition -&gt; multiplication ((&#34;+&#34; | &#34;-&#34;) multiplication)*
+multiplication -&gt; cast ((&#34;*&#34; | &#34;/&#34;) cast)*
+cast -&gt; (&#34;(&#34; type-name &#34;)&#34;) unary
+unary -&gt; (&#34;!&#34; | &#34;-&#34;) unary | call
+call -&gt; primary &#34;(&#34; [arguments] &#34;)&#34;
+primary -&gt; &#34;true&#34; | &#34;false&#34; 
+				 | NUMBER | STRING | IDENTIFIER | &#34;(&#34;expression&#34;)&#34;
+arguments -&gt; expression (&#34;,&#34; expression)* 
+</code></pre></div></article>
  
 
       <footer class="book-footer">
@@ -206,7 +260,13 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#syntactic-grammar">Syntactic Grammar</a></li>
+    <li><a href="#syntactic-grammar">Syntactic Grammar</a>
+      <ul>
+        <li><a href="#decalarations">Decalarations</a></li>
+        <li><a href="#statements">Statements</a></li>
+        <li><a href="#expressions">Expressions</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
