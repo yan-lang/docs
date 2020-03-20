@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Yan Documentation</title>
+    <link>https://yan-lang.github.io/yan-tutorial/en/</link>
+    <description>Recent content in Introduction on Yan Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://yan-lang.github.io/yan-tutorial/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Yan</title>
+      <link>https://yan-lang.github.io/yan-tutorial/en/docs/welcome/about-yan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/en/docs/welcome/about-yan/</guid>
+      <description>Caput vino delphine in tamen vias Cognita laeva illo fracta Lorem markdownum pavent auras, surgit nunc cingentibus libet Laomedonque que est. Pastor An arbor filia foedat, ne fugit aliter , per. Helicona illas et callida neptem est Oresitrophos caput, dentibus est venit. Tenet reddite famuli praesentem fortibus, quaeque vis foret si frondes gelidos gravidae circumtulit inpulit armenta nativum .
+ Te at cruciabere vides rubentis manebo Maturuit in praetemptat ruborem ignara postquam habitasse Subitarum supplevit quoque fontesque venabula spretis modo Montis tot est mali quasque gravis Quinquennem domus arsit ipse Pellem turis pugnabant locavit  Natus quaerere Pectora et sine mulcere, coniuge dum tincta incurvae.</description>
+    </item>
+    
+    <item>
+      <title>Lexical Grammar</title>
+      <link>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/lexical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/lexical/</guid>
+      <description>Lexical Grammar IDENTIFIER -&amp;gt; ALPHA (ALPHA | DIGIT)* ALPHA -&amp;gt; a-z | A-Z | _ DIGIT -&amp;gt; 0-9 STRING -&amp;gt; &amp;#34; any char except &amp;#34; &amp;#34; NUMBER -&amp;gt; DIGIT+ [.DIGIT+] LINE_COMMENT -&amp;gt; &amp;#34;//&amp;#34; any character BLOCK_COMMENT -&amp;gt;. &amp;#34;/*&amp;#34;any character &amp;#34;*/&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Variable</title>
+      <link>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/var/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/var/</guid>
+      <description>Variable </description>
+    </item>
+    
+    <item>
+      <title>Expression</title>
+      <link>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/expression/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/expression/</guid>
+      <description>Expression </description>
+    </item>
+    
+    <item>
+      <title>Quick Start</title>
+      <link>https://yan-lang.github.io/yan-tutorial/en/docs/welcome/quick-start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/en/docs/welcome/quick-start/</guid>
+      <description>At me ipso nepotibus nunc celebratior genus Tanto oblite Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat admonitu concidit, ad resimas vultus et rugas vultu dignamque Siphnon.
+Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description>
+    </item>
+    
+    <item>
+      <title>Syntactic Grammar</title>
+      <link>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/syntax/</guid>
+      <description>Syntactic Grammar program -&amp;gt; declartion* EOF Decalarations declaration -&amp;gt; funcDecl | varDecl | statement funcDecl -&amp;gt; &amp;#34;func&amp;#34; IDENTIFIER &amp;#34;(&amp;#34; parameters &amp;#34;)&amp;#34; [&amp;#34;-&amp;gt;&amp;#34; type] block varDecl -&amp;gt; &amp;#34;var&amp;#34; IDENTIFIER &amp;#34;:&amp;#34; type [&amp;#34;=&amp;#34; expression] &amp;#34;;&amp;#34; type -&amp;gt; &amp;#34;float&amp;#34; | &amp;#34;int&amp;#34; | &amp;#34;string&amp;#34; | &amp;#34;bool&amp;#34; | &amp;#34;char&amp;#34; parameters -&amp;gt; IDENTIFIER: type Statements statement -&amp;gt; block | ifStmt | whileStmt | forStmt | exprStmt | returnStmt | continueStmt | breakStmt | printStmt ifStmt -&amp;gt; &amp;#34;if&amp;#34; &amp;#34;(&amp;#34; expression &amp;#34;)&amp;#34; &amp;#34;{&amp;#34; block &amp;#34;}&amp;#34; [&amp;#34;else&amp;#34; block ] whileStmt -&amp;gt; &amp;#34;while&amp;#34; &amp;#34;(&amp;#34; expression &amp;#34;)&amp;#34; block forStmt -&amp;gt; &amp;#34;for&amp;#34; &amp;#34;(&amp;#34;varDecl|exprStmt&amp;#34;;&amp;#34; expression&amp;#34;;&amp;#34; expression&amp;#34;)&amp;#34; block exprStmt -&amp;gt; expression &amp;#34;;&amp;#34; returnStmt -&amp;gt; &amp;#34;return&amp;#34; [expression] &amp;#34;;&amp;#34; continueStmt -&amp;gt; &amp;#34;continue&amp;#34; &amp;#34;;&amp;#34; breakStmt -&amp;gt; &amp;#34;break&amp;#34; &amp;#34;;&amp;#34; block -&amp;gt; &amp;#34;{&amp;#34; statement* &amp;#34;}&amp;#34; printStmt -&amp;gt; &amp;#34;print&amp;#34; &amp;#34;(&amp;#34; expression &amp;#34;)&amp;#34; Expressions expression -&amp;gt; assignment assignment -&amp;gt; IDENTIFIER &amp;#34;=&amp;#34; assignment | logic_or logic_or -&amp;gt; logic_and (&amp;#34;||&amp;#34; logic_and)* logic_and -&amp;gt; equality (&amp;#34;&amp;amp;&amp;amp;&amp;#34; equality)* equality -&amp;gt; comparison ((&amp;#34;!</description>
+    </item>
+    
+    <item>
+      <title>Control Flow</title>
+      <link>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/control-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/control-flow/</guid>
+      <description>Control Flow </description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/summary/</guid>
+      <description>Summary </description>
+    </item>
+    
+    <item>
+      <title>Function</title>
+      <link>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/func/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/func/</guid>
+      <description>Function 测试一下
+var a:int = 10 func add(a:int, b:int) -&amp;gt; int { return } 测试一下代码高亮
+func power(base: int, e: int) -&amp;gt; int { var i = 0; var result = 1; while(i &amp;lt; e) { result *= base; i += 1; } return result; }  MacOS MacOS Content 测试一下Linux Linux ContentWindows Windows Content </description>
+    </item>
+    
+  </channel>
+</rss>

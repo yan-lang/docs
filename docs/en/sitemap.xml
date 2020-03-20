@@ -3,119 +3,106 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/welcome/about-yan/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/welcome/about-yan/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/lexical/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/lexical/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/lang-guide/var/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/var/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/welcome/</loc>
-    <lastmod>2020-01-27T23:44:07+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/welcome/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/lang-guide/expression/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/expression/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/lang-guide/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/welcome/quick-start/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/welcome/quick-start/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/syntax/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/syntax/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/lang-guide/control-flow/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/control-flow/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/lang-ref/summary/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/lang-ref/summary/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/lang-guide/func/</loc>
-    <lastmod>2020-01-27T22:48:41+08:00</lastmod>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/func/</loc>
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/categories/</loc>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
                 href="https://yan-lang.github.io/yan-tutorial/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/docs/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/docs/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://yan-lang.github.io/yan-tutorial/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/docs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
                 href="https://yan-lang.github.io/yan-tutorial/docs/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/</loc>
-    <lastmod>2020-01-26T22:14:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="https://yan-lang.github.io/yan-tutorial/en/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
                 href="https://yan-lang.github.io/yan-tutorial/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yan-lang.github.io/yan-tutorial/en/"
+                />
   </url>
   
   <url>
-    <loc>https://yan-lang.github.io/yan-tutorial/tags/</loc>
+    <loc>https://yan-lang.github.io/yan-tutorial/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
-                href="https://yan-lang.github.io/yan-tutorial/cn/tags/"
+                href="https://yan-lang.github.io/yan-tutorial/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://yan-lang.github.io/yan-tutorial/tags/"
+                href="https://yan-lang.github.io/yan-tutorial/en/tags/"
                 />
   </url>
   

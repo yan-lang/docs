@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Variable "><meta property="og:title" content="Variable" />
+<meta property="og:description" content="Variable " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yan-lang.github.io/yan-tutorial/en/docs/lang-guide/var/" />
+
+<title>Variable | Yan Documentation</title>
+<link rel="icon" href="/yan-tutorial/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/yan-tutorial/book.min.e84141515544ad1a3f6dd11c1582d7c2debbd4129f095be6781fd47e6ce531e3.css" integrity="sha256-6EFBUVVErRo/bdEcFYLXwt671BKfCVvmeB/UfmzlMeM=">
+
+
+<script defer src="/yan-tutorial/en.search.min.99b2aca6a76284efcaee22ec50550c9c838cdf663313a91ba6316fa55e3f7a2b.js" integrity="sha256-mbKspqdihO/K7iLsUFUMnIOM32YzE6kbpjFvpV4/eis="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/yan-tutorial/en"><span>Yan Documentation</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li>
+    
+
+  
+  <a href="/yan-tutorial/en/docs/welcome/" class="">Welcome to Yan</a>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/en/docs/welcome/about-yan/" class="">About Yan</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/en/docs/welcome/quick-start/" class="">Quick Start</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li>
+    
+
+  
+  <a href="/yan-tutorial/en/docs/lang-guide/" class="">Language Guide</a>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/en/docs/lang-guide/var/" class="active">Variable</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/en/docs/lang-guide/expression/" class="">Expression</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/en/docs/lang-guide/control-flow/" class="">Control Flow</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/en/docs/lang-guide/func/" class="">Function</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li>
+    
+
+  
+  <a href="/yan-tutorial/en/docs/lang-ref/" class="">Language Reference</a>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/en/docs/lang-ref/lexical/" class="">Lexical Grammar</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/en/docs/lang-ref/syntax/" class="">Syntactic Grammar</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/en/docs/lang-ref/summary/" class="">Summary</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="http://yan-lang.github.io/" target="_blank" rel="noopener">
+        ← Return to Yan.io
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/yan-tutorial/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Variable</strong>
+
+  <label for="toc-control">
+    <img src="/yan-tutorial/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#variable">Variable</a></li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="variable">Variable</h1>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+  
+
+
+  
+
+  
+
+
+
+<div class="book-languages" tabindex="0" aria-haspopup="true">
+  <ul>
+    <li class="flex">
+      <img src="/yan-tutorial/svg/translate.svg" class="book-icon" alt="Languages" />
+      English
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="">
+      <a href="/yan-tutorial/" class="flex">
+        <img src="/yan-tutorial/svg/translate.svg" class="book-icon" alt="Languages" />
+        简体中文
+      </a>
+    </li>
+    
+    <li class="active">
+      <a href="/yan-tutorial/en/" class="flex">
+        <img src="/yan-tutorial/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </li>
+    
+  </ul>
+
+</div>
+
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#variable">Variable</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

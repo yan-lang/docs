@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Buttons Buttons are styled links that can lead to local page or external link.
+{{&lt; button relref=&#34;/&#34; [class=&#34;...&#34;] &gt;}}Get Home{{&lt; /button &gt;}} {{&lt; button href=&#34;https://github.com/alex-shpak/hugo-book&#34; &gt;}}Contribute{{&lt; /button &gt;}} Example  Get Home  Contribute  "><meta property="og:title" content="" />
+<meta property="og:description" content="Buttons Buttons are styled links that can lead to local page or external link.
+{{&lt; button relref=&#34;/&#34; [class=&#34;...&#34;] &gt;}}Get Home{{&lt; /button &gt;}} {{&lt; button href=&#34;https://github.com/alex-shpak/hugo-book&#34; &gt;}}Contribute{{&lt; /button &gt;}} Example  Get Home  Contribute  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yan-lang.github.io/yan-tutorial/docs/common/error/" />
+
+<title>Error | Yan Documentation</title>
+<link rel="icon" href="/yan-tutorial/favicon.png" type="image/x-icon">
+
+
+<link rel="stylesheet" href="/yan-tutorial/book.min.e84141515544ad1a3f6dd11c1582d7c2debbd4129f095be6781fd47e6ce531e3.css" integrity="sha256-6EFBUVVErRo/bdEcFYLXwt671BKfCVvmeB/UfmzlMeM=">
+
+
+<script defer src="/yan-tutorial/cn.search.min.ebd40ffc770a42e962bb78f9545c9833360805271e813b48c33f6659308d2810.js" integrity="sha256-69QP/HcKQuliu3j5VFyYMzYIBScegTtIwz9mWTCNKBA="></script>
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/yan-tutorial"><span>Yan Documentation</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+
+
+
+
+ 
+  
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Foundation</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        
+
+  <li>
+    
+
+  
+  <a href="/yan-tutorial/docs/foundation/tutorial/" class="collapsed ">Tutorial</a>
+  
+
+
+    
+
+
+
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li>
+    
+
+  
+  <a href="/yan-tutorial/docs/foundation/api/" class="collapsed ">API</a>
+  
+
+
+    
+
+
+
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li class="book-section-flat" >
+    
+
+  
+  <span>Common</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/docs/common/error/" class="active">Error</a>
+  
+
+</li>
+      
+    
+      
+        <li>
+
+  
+  <a href="/yan-tutorial/docs/common/ycc/" class="">Ycc</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+      
+    
+  </ul>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="http://yan-lang.github.io/" target="_blank" rel="noopener">
+        ← Return to Yan.io
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/yan-tutorial/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Error</strong>
+
+  <label for="toc-control">
+    <img src="/yan-tutorial/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#buttons">Buttons</a>
+      <ul>
+        <li><a href="#example">Example</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="buttons">Buttons</h1>
+<p>Buttons are styled links that can lead to local page or external link.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tpl" data-lang="tpl"><span style="color:#999;font-weight:bold">{{</span><span style="font-weight:bold">&lt;</span> <span style="color:#008080">button</span> <span style="color:#008080">relref</span><span style="font-weight:bold">=</span><span style="color:#b84">&#34;/&#34;</span> <span style="font-weight:bold">[</span><span style="color:#008080">class</span><span style="font-weight:bold">=</span><span style="color:#b84">&#34;...&#34;</span><span style="font-weight:bold">]</span> <span style="font-weight:bold">&gt;</span><span style="color:#999;font-weight:bold">}}</span>Get Home<span style="color:#999;font-weight:bold">{{</span><span style="font-weight:bold">&lt;</span> <span style="font-weight:bold">/</span><span style="color:#008080">button</span> <span style="font-weight:bold">&gt;</span><span style="color:#999;font-weight:bold">}}</span>
+<span style="color:#999;font-weight:bold">{{</span><span style="font-weight:bold">&lt;</span> <span style="color:#008080">button</span> <span style="color:#008080">href</span><span style="font-weight:bold">=</span><span style="color:#b84">&#34;https://github.com/alex-shpak/hugo-book&#34;</span> <span style="font-weight:bold">&gt;</span><span style="color:#999;font-weight:bold">}}</span>Contribute<span style="color:#999;font-weight:bold">{{</span><span style="font-weight:bold">&lt;</span> <span style="font-weight:bold">/</span><span style="color:#008080">button</span> <span style="font-weight:bold">&gt;</span><span style="color:#999;font-weight:bold">}}</span>
+</code></pre></div><h2 id="example">Example</h2>
+<p>
+
+
+
+  
+
+<a  href="/yan-tutorial/"   class="book-btn">
+  Get Home
+</a>
+
+
+
+
+  
+  
+
+
+<a  href="https://github.com/alex-shpak/hugo-book"   target="_blank"  class="book-btn">
+  Contribute
+</a>
+</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+  
+
+
+  
+
+  
+
+
+
+<div class="book-languages" tabindex="0" aria-haspopup="true">
+  <ul>
+    <li class="flex">
+      <img src="/yan-tutorial/svg/translate.svg" class="book-icon" alt="Languages" />
+      简体中文
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="active">
+      <a href="/yan-tutorial/" class="flex">
+        <img src="/yan-tutorial/svg/translate.svg" class="book-icon" alt="Languages" />
+        简体中文
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="/yan-tutorial/en/" class="flex">
+        <img src="/yan-tutorial/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </li>
+    
+  </ul>
+
+</div>
+
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#buttons">Buttons</a>
+      <ul>
+        <li><a href="#example">Example</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

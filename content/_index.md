@@ -1,10 +1,10 @@
 ---
-title: Introduction
+title: 介绍
 type: docs
 bookToc: false
 ---
 
-# Welcome to Yan
+# 欢迎使用"言"
 
-Yan is an educational programming language, which is designed for the purpose of practices of *Compiler Principle* and its related courses.
+言(Yan)是一门面向教育用途的编程语言，它主要用于编译原理相关课程的实践。
 

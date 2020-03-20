@@ -18,6 +18,22 @@
     font-size: 14.5px;
 }
 
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+    font-weight: 500;
+}
+
+.markdown img {
+    margin: auto;
+    display: block;
+    max-width: 70%;
+}
+
+@media screen and (max-width: $mobile-breakpoint) {
+    .markdown img {
+        max-width: 100%;
+    }
+}
+
 .highlight .yan{
     border-radius: .15rem;
     font-size: .8em;
