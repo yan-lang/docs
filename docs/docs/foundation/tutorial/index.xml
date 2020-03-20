@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on Yan Documentation</title>
-    <link>https://yan-lang.github.io/yan-tutorial/docs/foundation/tutorial/</link>
+    <link>https://yan-lang.github.io/docs/docs/foundation/tutorial/</link>
     <description>Recent content in Tutorial on Yan Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://yan-lang.github.io/yan-tutorial/docs/foundation/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yan-lang.github.io/docs/docs/foundation/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>快速开始</title>
-      <link>https://yan-lang.github.io/yan-tutorial/docs/foundation/tutorial/quick-start/</link>
+      <link>https://yan-lang.github.io/docs/docs/foundation/tutorial/quick-start/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yan-lang.github.io/yan-tutorial/docs/foundation/tutorial/quick-start/</guid>
+      <guid>https://yan-lang.github.io/docs/docs/foundation/tutorial/quick-start/</guid>
       <description>快速开始 假设我们有一个语言Simple，这个语言只能定义变量，定义变量的规则是先写一个var关键字，然后空格接一个标识符，标识符只能有字母和数字组成，然后可以有一个初始值number，初始值必须是个整数。无需声明类型。
 &amp;#39;var&amp;#39; ID &amp;#39;=&amp;#39; number 现在我们利用Foundation框架，为这个语言编写一个简单的词法分析器和语法分析器。 Let&amp;rsquo;s Start!
 新建一个项目 下面详细阐述如何将框架导入你的Java项目之中，如果你之前有过使用Java第三方库的经历，你可以选择跳过这一章节，从 下载安装 页面直接下载jar包自行导入。

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yan Documentation</title>
-    <link>https://yan-lang.github.io/yan-tutorial/tags/</link>
+    <link>https://yan-lang.github.io/docs/tags/</link>
     <description>Recent content in Tags on Yan Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://yan-lang.github.io/yan-tutorial/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yan-lang.github.io/docs/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

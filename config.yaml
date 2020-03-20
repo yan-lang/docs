@@ -2,7 +2,7 @@
 
 title: Yan Documentation
 theme: hugo-book
-baseURL: https://yan-lang.github.io/yan-tutorial/
+baseURL: https://yan-lang.github.io/docs/
 
 # Book configuration
 disablePathToLower: true
@@ -34,16 +34,16 @@ languages:
     languageName: 简体中文
     contentDir: content
     weight: 1
-  en:
-    languageName: English
-    contentDir: content.en
-    weight: 2
+  # en:
+  #   languageName: English
+  #   contentDir: content.en
+  #   weight: 2
 
 menu:
   # before: []
   after:
     - name: "← Return to Yan.io"
-      url: "http://yan-lang.github.io/"
+      url: "https://yan-lang.github.io/"
       weight: 10
 
 params:
@@ -66,7 +66,7 @@ params:
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo: https://github.com/yan-lang/yan-tutorial
+  BookRepo: https://github.com/yan-lang/docs
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
